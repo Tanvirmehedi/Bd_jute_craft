@@ -1,0 +1,705 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300i,400,400i,500,500i,600,600i,700,700i,800,900i&display=swap");
+/* Bassic css
+Design By tanvir Mehedi
+Version Bootstrap 4
+*/
+/*font Use
+font-family: Montserrat;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Arimo";
+}
+
+p,
+a {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+img {
+  border: none;
+}
+
+clr {
+  clear: both;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a,
+a:hover,
+button,
+button:hover {
+  transition: 0.4s;
+}
+
+#error {
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #444;
+  background: #fff;
+}
+
+/* +++++++++++++++
+    Basic css end 
++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++++++
+        ABOUT part CSS Start
+ ++++++++++++++++++++++++++++++++++*/
+
+/* nav header info css */
+#info_head {
+  padding: 10px 0;
+  background-color: rgba(34, 34, 34, 0.493);
+}
+
+#info_head ul li {
+  color: #32609b;
+  font-weight: 500;
+}
+
+#info_head ul li a {
+  color: #fff;
+}
+
+/* nav bar css */
+
+header .nav_main {
+  background: #fff !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  padding: 18px 0 !important;
+}
+
+header .nav_main .nav-item:hover .nav-link {
+  color: #3f68b1 !important;
+  transition: all 0.5s linear;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  color: #222 !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+header .navbar-nav .nav-item {
+  padding-left: 25px;
+}
+
+/* banner_part Css */
+#abtbanner_part {
+  background-image: url("../img/bg/header_bg.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 447px;
+  position: relative;
+}
+
+#abtbanner_part .banner_cont {
+  height: 358px;
+  width: 464px;
+  box-sizing: border-box;
+  border: 4px solid #fff;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding-top: 80px;
+}
+
+#abtbanner_part .banner_cont span {
+  width: 80px;
+  height: 5px;
+  border-top: 3px solid #fff;
+  color: transparent;
+}
+
+#abtbanner_part .banner_cont .ban_btn {
+  background: #40434b;
+  color: #fff;
+}
+
+/* about space css */
+
+#abt_space {
+  padding: 30px 0;
+  background-color: rgb(229, 226, 226);
+}
+
+#abt_space span {
+  color: #222 !important;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* about_part css */
+#about_part {
+  padding-top: 50px;
+}
+
+#about_part .about_title p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#whyus .about_title p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++
+         footer css
+++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#footer small {
+  font-size: 10px;
+}
+
+#footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++ footer_icon css++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.footer_icon ul li {
+  display: inline-block !important;
+  padding-left: 5px;
+}
+
+.footer_icon ul li a i {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* ===============================================
+            Blog Page Css Start
+    ============================================ */
+
+#blog_cont .searc_blog {
+  font-size: 20px;
+  position: relative;
+}
+
+#blog_cont .searc_blog::after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  left: 90px;
+  width: 165px;
+  height: 1px;
+  background: #cccccc;
+}
+
+#blog_cont .search_btn {
+  position: relative;
+}
+
+#blog_cont .serc_icon {
+  position: absolute;
+  top: 16px;
+  right: 8px;
+  color: #958989;
+}
+
+#side_nav .nav-link {
+  margin-top: -10px;
+  color: #a29494 !important;
+  text-transform: capitalize;
+  padding-left: 0 !important;
+  transition: all 0.3s linear;
+}
+
+#side_nav .nav-link:hover {
+  color: #32609b !important;
+}
+
+/* blog main containt css */
+
+.blog_maincon .post-meta span {
+  padding-left: 20px;
+}
+
+.btn_black {
+  height: 33px;
+  border: none;
+  line-height: 33px;
+  background: #333;
+  padding: 0 20px;
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 11px;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 8px 0 0;
+  transition: all 0.5s linear;
+}
+
+.btn_black:hover {
+  background: #3f68b1;
+}
+
+/* ++++++++++++++++++++++++++++++
+Faq css ++++++++++++++++++++++++++++++++*/
+
+#faq .about_title p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#faq .faq_con .faq_head {
+  font-size: 35px;
+  font-weight: 600;
+  color: #444444;
+  font-style: italic;
+}
+
+#faq .faq_con .faq_head .faq_pra {
+  font-size: 17px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++
+        csr css
++++++++++++++++++++++++++++++++++++++++++++*/
+#csr_part {
+  padding: 50px 0;
+  font-family: Montserrat;
+}
+
+#csr_part .about_title p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#csr_part .csr_con p {
+  font-size: 18px;
+  color: #242424;
+  padding-top: 4px;
+}
+
+#csr_part .csr_con li {
+  font-size: 15px;
+  color: #242424;
+  padding-top: 3px;
+}
+
+#csr_part p a {
+  color: red;
+  color: #3f68b1;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+#csr_part p a:hover {
+  color: #222;
+}
+
+/*++++++++++++++++++++++++++++++++
+factory css+++++++++++++++++++++++++++++*/
+#fct_part {
+  padding: 50px 0;
+}
+
+#fctbanner_part {
+  background-image: url("../img/bg/sara-fac.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 447px;
+  position: relative;
+}
+
+#fctbanner_part .banner_cont {
+  height: 358px;
+  width: 464px;
+  box-sizing: border-box;
+  border: 4px solid #fff;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding-top: 80px;
+}
+
+#fctbanner_part .banner_cont span {
+  width: 80px;
+  height: 5px;
+  border-top: 3px solid #fff;
+  color: transparent;
+}
+
+#fctbanner_part .banner_cont .ban_btn {
+  background: #40434b;
+  color: #fff;
+}
+
+#fct_part .about_title p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#fct_part .fct_con p {
+  font-size: 18px;
+  color: #242424;
+  padding-top: 4px;
+}
+
+#fct_part .fct_con li {
+  font-size: 15px;
+  color: #242424;
+  padding-top: 3px;
+}
+
+#fct_part p a {
+  color: red;
+  color: #3f68b1;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+#fct_part p a:hover {
+  color: #222;
+}
+
+#fct_part .fct_con h2 {
+  padding-bottom: 20px !important;
+}
+
+#fct_part .fct_con h2 strong {
+  border-bottom: 4px solid #222;
+  transition: all 0.5s linear;
+}
+
+#fct_part .fct_con h2 strong:hover {
+  background: gray;
+  color: #fff;
+  padding: 0 7px;
+}
+
+#fct_part .fct_con h3 {
+  font-weight: 400;
+}
+
+#fct_part .fct_con h2:hover::first-letter {
+  color: red;
+}
+
+/* +++++++++++++++++++++++++++++
+        contuct_part Css 
+++++++++++++++++++++++++++++++++*/
+#contuct_part {
+  padding: 50px 0;
+}
+
+#contuct_part h4 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  background: #fff;
+}
+
+#contuct_part .left_h4::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 105px;
+  background-color: #cccccc;
+  top: 10px;
+  left: -21px;
+}
+
+#contuct_part .left_h4::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 105px;
+  background-color: #cccccc;
+  top: 10px;
+  right: -21px;
+}
+
+#contuct_part .right_h4::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 180px;
+  background-color: #cccccc;
+  top: 10px;
+  left: 67px;
+}
+
+#contuct_part .right_h4::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 180px;
+  background-color: #cccccc;
+  top: 10px;
+  right: 67px;
+}
+
+/* +++++++++++++++++++++++
+Home Menu Css
++++++++++++++++++++++++ */
+#main_menu .nav-item {
+  padding: 10px;
+}
+
+#main_menu .nav-item:hover .nav-link {
+  color: rgb(243, 210, 103) !important;
+  transition: all 0.5s linear;
+}
+
+.active .nav-link {
+  background-color: #3f68b1 !important;
+}
+
+#main_menu .nav-item a {
+  color: rgb(48, 47, 47) !important;
+  font-weight: 700;
+}
+
+#main_menu .product {
+  position: relative;
+  transition: all 0.5s linear;
+}
+
+#main_menu .product .Sub_menu {
+  right: -467px;
+  width: 975px;
+  position: absolute;
+  top: 37px;
+  height: 360px;
+  z-index: 99;
+  visibility: hidden;
+  background-image: url("../img/menuimg/menu-bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #ededed;
+  font-family: "Raleway", sans-serif;
+  transition: all 0.5s linear;
+}
+
+#main_menu ul .product:hover .Sub_menu {
+  visibility: visible;
+}
+
+#main_menu .product .Sub_menu h3 {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(131, 127, 127);
+}
+
+#main_menu .product .Sub_menu a {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #ededed;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(114, 110, 110, 0.541);
+}
+
+#main_menu .product .Sub_menu li {
+  padding-top: 5px !important;
+  /* border-bottom: 1px solid rgba(95, 93, 93, 0.514); */
+}
+
+#main_menu .product .Sub_menu .menu2 {
+  padding-top: 0px !important;
+}
+
+#main_menu .product .Sub_menu li:hover a {
+  color: #7a97c9 !important;
+}
+
+/* +++++++++++++++++++++++
+Home Menu Css End
++++++++++++++++++++++++ */
+
+/*++++++++++++++++++++++
+	Slider Css
++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++
+	Slider Css
++++++++++++++++++++++*/
+
+/* feture css */
+
+.feture_overlay {
+  top: 0;
+  left: 0;
+  height: 100%;
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+}
+
+.feture_overlay p {
+  margin-top: 176px;
+}
+
+.Feture_title .ftr_icon::after {
+  position: absolute;
+  content: "";
+  width: 96px;
+  height: 1px;
+  top: 54px;
+  right: 434px;
+  left: 100;
+  background: darkgray;
+}
+
+.Feture_title .ftr_icon::before {
+  position: absolute;
+  content: "";
+  width: 96px;
+  height: 1px;
+  top: 54px;
+  right: 578px;
+  left: 100;
+  background: darkgray;
+}
+
+/*++++++++++++++++ slider_img ++++++++++++++++++++*/
+
+.slider_img .image_icon {
+  top: 50%;
+  left: 50%;
+  height: 64px;
+  width: 64px;
+  background: rgb(23, 111, 133);
+  text-align: center;
+  border-radius: 50%;
+  transform: translateX(-50px);
+  margin-top: -15px;
+  margin-left: -25px;
+  transition: all 0.5s;
+  visibility: hidden;
+  transform: scale(0);
+}
+
+.slider_con:hover .slider_img .image_icon {
+  visibility: visible;
+  transform: translateZ(50px) rotate(0deg);
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+.slider_img .image_icon i {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 25px;
+  line-height: 50%;
+  transform: translateZ(0) rotate(-45deg);
+}
+
+.slider_con:hover .slider_img .image_icon i {
+  transform: translateZ(0) rotate(0deg);
+  transition: 0.5s;
+}
+
+.slider_con h3 {
+  text-align: center;
+}
+
+.slider_con h3 a {
+  color: #222;
+  font-size: 20px;
+}
+
+/* blog_txt */
+
+#blog_txt span {
+  color: #444444 !important;
+}
+
+#blog_txt h4 a {
+  color: #554f4f;
+}
+
+#blog_txt h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#blog_cont .src_int::after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  left: 161px;
+  width: 90px;
+  height: 1px;
+  background: #cccccc;
+}
+
+#blog_cont .int_cat::after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  left: 226px;
+  width: 44px;
+  height: 1px;
+  background: #cccccc;
+}
+
+.product_all .btn-sm a {
+  color: #fff !important;
+}
+
+.product_all .btn-sm:hover a {
+  color: rgb(233, 123, 33) !important;
+}
